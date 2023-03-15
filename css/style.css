@@ -169,6 +169,7 @@ html{
 .featurs .feat{
   padding: 20px;
   text-align: center;
+  
 }
 .featurs .feat i{
   color: var(--main-color);

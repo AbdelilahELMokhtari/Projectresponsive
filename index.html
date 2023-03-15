@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/normalise.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Work+Sans:wght@100;300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
-    
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <title>project</title>
+    <title>Clean Project</title>
 </head>
 <body>
     <!-- Start Header -->
@@ -42,18 +42,18 @@
     <!-- Start Featurs -->
     <div class="featurs">
         <div class="container">
-            <div class="feat">
+            <div class="feat" data-aos="fade-right" data-aos-delay="150">
                 <i class="fa-solid fa-wand-magic-sparkles fa-2x"></i>
                 <h3>Tell Us Your Idea</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, minus.</p>
             </div>
-            <div class="feat">
+            <div class="feat" data-aos="fade-up">
                 <i class="fa-solid fa-gem fa-2x"></i>
                 <h3>We Will Do All The Work</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, minus.</p>
             </div>
-            <div class="feat">
-                <i class="fa-solid fa-earth-asia fa-2x"></i>
+            <div class="feat" data-aos="fade-left">
+                <i class="fa-solid fa-earth-asia fa-2x" ></i>
                 <h3>Your Product is Worldwide</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, minus.</p>
             </div>
@@ -68,7 +68,7 @@
             <h2 class="special-heading">Services</h2>
             <p>Don't Be Busy, be Productive</p>
             <div class="services-content">
-                <div class="col">
+                <div class="col" data-aos="fade-down-right">
                     <!-- Start service -->
                     <div class="srv">
                         <i class="fa-solid fa-palette fa-2x"></i>
@@ -88,7 +88,7 @@
         
                 </div>
                 <!-- Col2 -->
-                <div class="col">
+                <div class="col" data-aos="fade-down-left" >
                     <!-- Start service -->
                     <div class="srv">
                         <i class="fa-solid fa-object-group fa-2x"></i>
@@ -110,7 +110,7 @@
                 </div>
                 <!-- Col 3 -->
                 <div class="col">
-                    <div class="image">
+                    <div class="image" data-aos="fade-left">
                         <img src="images/landing.jpg" alt="">
                     </div>
                 </div>
@@ -129,7 +129,7 @@
             <h2 class="special-heading">Portfolio</h2>
             <p>Don't Be Busy, be Productive</p>
             <div class="portfolio-content">
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <img src="images/card-1.jpg" alt="">
                     <div class="text-card">
                         <h3>Project Here</h3>
@@ -137,7 +137,7 @@
 
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-down">
                     <img src="images/card-1.jpg" alt="">
                     <div class="text-card">
                         <h3>Project Here</h3>
@@ -145,7 +145,7 @@
 
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="zoom-in-left">
                     <img src="images/card-1.jpg" alt="">
                     <div class="text-card">
                         <h3>Project Here</h3>
@@ -165,10 +165,10 @@
             <h2 class="special-heading">ABOUT</h2>
             <p>Don't Be Busy, be Productive</p>
             <div class="about-content">
-               <div class="image">
+               <div class="image" data-aos="zoom-in-left">
                 <img src="images/shrek.jpg" alt="">
                </div>
-               <div class="text">
+               <div class="text" data-aos="fade-up">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur delectus eum commodi temporibus ut ullam, quas vel animi,
                      magnam debitis soluta possimus deleniti saepe rerum totam ad accusamus architecto cupiditate?</p>
                 <hr>
@@ -185,7 +185,7 @@
         <div class="container">
             <h2 class="special-heading">Contact</h2>
             <p>Don't Be Busy, be Productive</p>
-            <div class="info">
+            <div class="info" data-aos="zoom-out-left">
                 <p class="label">Fill Free to drop us a line at :</p>
                 <a href="mailto:Abdelilah2021abdo@gmail.com" class="link">Abdelilah2021abdo@gmail.com</a>
                 <div class="social">
@@ -209,5 +209,9 @@
         </p>
     </div>
     <!-- End Footer -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
